@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6641FDA61303B14D0012B469 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6641FDA51303B14D0012B469 /* UIKit.framework */; };
+		6641FDA81303B14D0012B469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6641FDA71303B14D0012B469 /* Foundation.framework */; };
+		6641FDAA1303B14D0012B469 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6641FDA91303B14D0012B469 /* CoreGraphics.framework */; };
+		6641FDB01303B14D0012B469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6641FDAE1303B14D0012B469 /* InfoPlist.strings */; };
+		6641FDB31303B14D0012B469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6641FDB21303B14D0012B469 /* main.m */; };
+		6641FDB61303B14D0012B469 /* UITableViewTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6641FDB51303B14D0012B469 /* UITableViewTestAppDelegate.m */; };
+		6641FDB91303B14D0012B469 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6641FDB71303B14D0012B469 /* MainWindow.xib */; };
+		6641FDBC1303B14D0012B469 /* UITableViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6641FDBB1303B14D0012B469 /* UITableViewTestViewController.m */; };
+		6641FDBF1303B14D0012B469 /* UITableViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6641FDBD1303B14D0012B469 /* UITableViewTestViewController.xib */; };
+		6641FDC61303B5A40012B469 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6641FDC51303B5A40012B469 /* testImage.png */; };
+		6641FDC81303B6580012B469 /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6641FDC71303B6580012B469 /* testImage.jpg */; };
+		E334FC9B13129B7A00D1DBE5 /* ScreenCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = E334FC9A13129B7A00D1DBE5 /* ScreenCaptureView.m */; };
+		E334FCA413129C2400D1DBE5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E334FCA313129C2400D1DBE5 /* AssetsLibrary.framework */; };
+		E334FCA613129C2400D1DBE5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E334FCA513129C2400D1DBE5 /* AVFoundation.framework */; };
+		E334FCA813129C2400D1DBE5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E334FCA713129C2400D1DBE5 /* CoreMedia.framework */; };
+		E334FCAA13129C2400D1DBE5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E334FCA913129C2400D1DBE5 /* CoreVideo.framework */; };
+		E334FCAC13129C2400D1DBE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E334FCAB13129C2400D1DBE5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6641FDA11303B14D0012B469 /* ScreenCaptureViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenCaptureViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6641FDA51303B14D0012B469 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6641FDA71303B14D0012B469 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6641FDA91303B14D0012B469 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6641FDAD1303B14D0012B469 /* UITableViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewTest-Info.plist"; sourceTree = "<group>"; };
+		6641FDAF1303B14D0012B469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6641FDB11303B14D0012B469 /* UITableViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		6641FDB21303B14D0012B469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6641FDB41303B14D0012B469 /* UITableViewTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableViewTestAppDelegate.h; sourceTree = "<group>"; };
+		6641FDB51303B14D0012B469 /* UITableViewTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewTestAppDelegate.m; sourceTree = "<group>"; };
+		6641FDB81303B14D0012B469 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6641FDBA1303B14D0012B469 /* UITableViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableViewTestViewController.h; sourceTree = "<group>"; };
+		6641FDBB1303B14D0012B469 /* UITableViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewTestViewController.m; sourceTree = "<group>"; };
+		6641FDBE1303B14D0012B469 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UITableViewTestViewController.xib; sourceTree = "<group>"; };
+		6641FDC51303B5A40012B469 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
+		6641FDC71303B6580012B469 /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
+		E334FC9913129B7A00D1DBE5 /* ScreenCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenCaptureView.h; sourceTree = "<group>"; };
+		E334FC9A13129B7A00D1DBE5 /* ScreenCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenCaptureView.m; sourceTree = "<group>"; };
+		E334FCA313129C2400D1DBE5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E334FCA513129C2400D1DBE5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E334FCA713129C2400D1DBE5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E334FCA913129C2400D1DBE5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E334FCAB13129C2400D1DBE5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6641FD9E1303B14D0012B469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6641FDA61303B14D0012B469 /* UIKit.framework in Frameworks */,
+				6641FDA81303B14D0012B469 /* Foundation.framework in Frameworks */,
+				6641FDAA1303B14D0012B469 /* CoreGraphics.framework in Frameworks */,
+				E334FCA413129C2400D1DBE5 /* AssetsLibrary.framework in Frameworks */,
+				E334FCA613129C2400D1DBE5 /* AVFoundation.framework in Frameworks */,
+				E334FCA813129C2400D1DBE5 /* CoreMedia.framework in Frameworks */,
+				E334FCAA13129C2400D1DBE5 /* CoreVideo.framework in Frameworks */,
+				E334FCAC13129C2400D1DBE5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6641FD961303B14D0012B469 = {
+			isa = PBXGroup;
+			children = (
+				6641FDAB1303B14D0012B469 /* ScreenCaptureViewTest */,
+				6641FDA41303B14D0012B469 /* Frameworks */,
+				6641FDA21303B14D0012B469 /* Products */,
+				E334FCA313129C2400D1DBE5 /* AssetsLibrary.framework */,
+				E334FCA513129C2400D1DBE5 /* AVFoundation.framework */,
+				E334FCA713129C2400D1DBE5 /* CoreMedia.framework */,
+				E334FCA913129C2400D1DBE5 /* CoreVideo.framework */,
+				E334FCAB13129C2400D1DBE5 /* QuartzCore.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		6641FDA21303B14D0012B469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6641FDA11303B14D0012B469 /* ScreenCaptureViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6641FDA41303B14D0012B469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6641FDA51303B14D0012B469 /* UIKit.framework */,
+				6641FDA71303B14D0012B469 /* Foundation.framework */,
+				6641FDA91303B14D0012B469 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6641FDAB1303B14D0012B469 /* ScreenCaptureViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				6641FDB41303B14D0012B469 /* UITableViewTestAppDelegate.h */,
+				6641FDB51303B14D0012B469 /* UITableViewTestAppDelegate.m */,
+				6641FDB71303B14D0012B469 /* MainWindow.xib */,
+				6641FDBA1303B14D0012B469 /* UITableViewTestViewController.h */,
+				6641FDBB1303B14D0012B469 /* UITableViewTestViewController.m */,
+				6641FDBD1303B14D0012B469 /* UITableViewTestViewController.xib */,
+				6641FDAC1303B14D0012B469 /* Supporting Files */,
+				E334FC9913129B7A00D1DBE5 /* ScreenCaptureView.h */,
+				E334FC9A13129B7A00D1DBE5 /* ScreenCaptureView.m */,
+			);
+			path = ScreenCaptureViewTest;
+			sourceTree = "<group>";
+		};
+		6641FDAC1303B14D0012B469 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6641FDC71303B6580012B469 /* testImage.jpg */,
+				6641FDC51303B5A40012B469 /* testImage.png */,
+				6641FDAD1303B14D0012B469 /* UITableViewTest-Info.plist */,
+				6641FDAE1303B14D0012B469 /* InfoPlist.strings */,
+				6641FDB11303B14D0012B469 /* UITableViewTest-Prefix.pch */,
+				6641FDB21303B14D0012B469 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6641FDA01303B14D0012B469 /* ScreenCaptureViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6641FDC21303B14D0012B469 /* Build configuration list for PBXNativeTarget "ScreenCaptureViewTest" */;
+			buildPhases = (
+				6641FD9D1303B14D0012B469 /* Sources */,
+				6641FD9E1303B14D0012B469 /* Frameworks */,
+				6641FD9F1303B14D0012B469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenCaptureViewTest;
+			productName = UITableViewTest;
+			productReference = 6641FDA11303B14D0012B469 /* ScreenCaptureViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6641FD981303B14D0012B469 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6641FD9B1303B14D0012B469 /* Build configuration list for PBXProject "ScreenCaptureViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6641FD961303B14D0012B469;
+			productRefGroup = 6641FDA21303B14D0012B469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6641FDA01303B14D0012B469 /* ScreenCaptureViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6641FD9F1303B14D0012B469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6641FDB01303B14D0012B469 /* InfoPlist.strings in Resources */,
+				6641FDB91303B14D0012B469 /* MainWindow.xib in Resources */,
+				6641FDBF1303B14D0012B469 /* UITableViewTestViewController.xib in Resources */,
+				6641FDC61303B5A40012B469 /* testImage.png in Resources */,
+				6641FDC81303B6580012B469 /* testImage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6641FD9D1303B14D0012B469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6641FDB31303B14D0012B469 /* main.m in Sources */,
+				6641FDB61303B14D0012B469 /* UITableViewTestAppDelegate.m in Sources */,
+				6641FDBC1303B14D0012B469 /* UITableViewTestViewController.m in Sources */,
+				E334FC9B13129B7A00D1DBE5 /* ScreenCaptureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6641FDAE1303B14D0012B469 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6641FDAF1303B14D0012B469 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6641FDB71303B14D0012B469 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6641FDB81303B14D0012B469 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6641FDBD1303B14D0012B469 /* UITableViewTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6641FDBE1303B14D0012B469 /* en */,
+			);
+			name = UITableViewTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6641FDC01303B14D0012B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6641FDC11303B14D0012B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6641FDC31303B14D0012B469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenCaptureViewTest/UITableViewTest-Prefix.pch";
+				INFOPLIST_FILE = "ScreenCaptureViewTest/UITableViewTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6641FDC41303B14D0012B469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenCaptureViewTest/UITableViewTest-Prefix.pch";
+				INFOPLIST_FILE = "ScreenCaptureViewTest/UITableViewTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6641FD9B1303B14D0012B469 /* Build configuration list for PBXProject "ScreenCaptureViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6641FDC01303B14D0012B469 /* Debug */,
+				6641FDC11303B14D0012B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6641FDC21303B14D0012B469 /* Build configuration list for PBXNativeTarget "ScreenCaptureViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6641FDC31303B14D0012B469 /* Debug */,
+				6641FDC41303B14D0012B469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6641FD981303B14D0012B469 /* Project object */;
+}
